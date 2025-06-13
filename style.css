@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Graphik', Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none !important;
+}
+
+
+.header__head {
+  background-image: url(assets/home.png);
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+  position: relative;
+}
+.header__head nav ul a,
+.header__caption {
+  color: white !important;
+}
+.header__caption {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.features__card {
+  background: transparent;
+  border: 0;
+}
+
+
+
+.pricing {
+  background-color: #252b42;
+  color: #f9f9f9;
+}
+
+.pricing__card--special {
+  transform: translateY(-7%);
+  padding-bottom: 9rem !important;
+  background-color: #2091F9 !important;
+}
+
+
+.contact-icon {
+  font-size: 1.5rem;
+  color: #0d6efd;
+}
+
+.footer {
+  background-color: #252b42;
+  color: #f9f9f9;
+}
+.footer a {
+  color: #f5f5f5c1;
+}
+
+@font-face {
+  font-family: 'Graphik';
+  src: url('assets/fonts/GraphikCompact-Regular-Trial.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
