@@ -1,7 +1,7 @@
 # Bootstrap Template
 
 A responsive website template built using Bootstrap 5.
-
+![preview](./image.jpg)
 ## 💻 Preview
 demo: https://islam-mohamed-74.github.io/Bootsrap-templete/
 
